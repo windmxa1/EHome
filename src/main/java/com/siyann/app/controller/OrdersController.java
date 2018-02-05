@@ -215,7 +215,7 @@ public class OrdersController {
 	/**
 	 * 定时自动完成
 	 */
-	@Scheduled(fixedDelay = 1 * 1000)
+//	@Scheduled(fixedDelay = 1 * 1000)
 	private void finishOrder() {
 		oDao = new OrdersDaoImp();
 		oDao.finish();
@@ -224,7 +224,7 @@ public class OrdersController {
 	/**
 	 * 定时取消
 	 */
-	@Scheduled(fixedDelay = 1 * 1000)
+//	@Scheduled(fixedDelay = 1 * 1000)
 	private void closeOrder() {
 		oDao = new OrdersDaoImp();
 		oDao.cancel();

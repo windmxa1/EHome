@@ -3,11 +3,563 @@
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
       <artifact name="EHome:war" />
-      <artifact name="EHome:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a6baf4c-285b-483a-92a3-de13390630d7" name="Default" comment="" />
+    <list default="true" id="7a6baf4c-285b-483a-92a3-de13390630d7" name="Default" comment="搭建框架">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_0_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/ProxoolConf.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/app/controller/AfterSaleController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/app/controller/FranchiseeController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/app/controller/GarouselController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/app/controller/GoodsController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/app/controller/OrdersController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/app/controller/RepairController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/app/controller/ScrollNewsController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/app/controller/StaffController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/app/controller/TvController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/app/controller/UserController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/bean/OrderModel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/bean/WXNotify.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/bean/WXRETURN.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/controller/AdminController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/controller/AfterSaleController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/controller/FranchiseeController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/controller/GarouselController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/controller/GoodsController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/controller/OrdersController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/controller/RepairController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/controller/StaffController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/controller/TvController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/controller/UserController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/dao/AdminDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/dao/AfterSaleDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/dao/FranchiseeDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/dao/GarouselCatalogDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/dao/GarouselDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/dao/GoodsActivityDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/dao/GoodsCatalogDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/dao/GoodsDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/dao/OrdersDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/dao/RefundDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/dao/RepairDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/dao/ScrollNewsDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/dao/StaffDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/dao/TvDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/dao/UserAddressDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/dao/UserDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/dao/UserFeedbackDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/dao/VersionDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/dao/imp/AdminDaoImp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/dao/imp/AfterSaleDaoImp$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/dao/imp/AfterSaleDaoImp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/dao/imp/FranchiseeDaoImp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/dao/imp/GarouselCatalogDaoImp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/dao/imp/GarouselDaoImp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/dao/imp/GoodsCatalogDaoImp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/dao/imp/GoodsDaoImp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/dao/imp/OrdersDaoImp$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/dao/imp/OrdersDaoImp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/dao/imp/RefundDaoImp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/dao/imp/RepairDaoImp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/dao/imp/ScrollNewsDaoImp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/dao/imp/StaffDaoImp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/dao/imp/TvDaoImp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/dao/imp/UserAddressDaoImp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/dao/imp/UserDaoImp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/dao/imp/UserFeedbackDaoImp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/dao/imp/VersionDaoImp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/interceptor/AppInterceptor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/interceptor/BackInterceptor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/interceptor/BaseInterceptor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/model/Admin.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/model/AfterSale.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/model/AppVersion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/model/Franchisee.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/model/Garousel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/model/GarouselCatalog.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/model/Goods.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/model/GoodsActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/model/GoodsCatalog.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/model/Orders.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/model/OrdersDetail.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/model/Refund.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/model/RepairComment.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/model/RepairOrder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/model/RepairOrderRead.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/model/ScrollNews.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/model/Staff.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/model/StaffPromotion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/model/Tv.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/model/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/model/UserAddress.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/model/UserFeedback.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/util/AESUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/util/ALIPAY.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/util/Base64Util.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/util/ChangeTime.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/util/Constants.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/util/Coordinate.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/util/HibernateSessionFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/util/JsonUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/util/MD5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/util/MD5Util.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/util/MatrixToImageWriter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/util/PDFUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/util/RedisUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/util/ResultUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/util/SerializeUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/util/TokenUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/util/Utils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/util/WXAPI.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/util/XmlUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/view/VAdmin.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/view/VAdminId.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/view/VGarousel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/view/VGarouselId.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/view/VGoods.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/view/VGoodsActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/view/VGoodsActivityId.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/view/VGoodsCount.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/view/VGoodsCountId.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/view/VGoodsId.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/view/VOrders.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/view/VOrdersDetails.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/view/VOrdersDetailsId.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/view/VOrdersId.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/view/VRepairOrder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/view/VRepairOrderId.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/view/VStaffPromotion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/view/VStaffPromotionId.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/view/VTv.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/view/VTvId.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/view/VUser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/view/VUserAddress.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/view/VUserAddressId.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/view/VUserFeedback.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/view/VUserFeedbackId.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/com/siyann/view/VUserId.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/hibernate.cfg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/key.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/redis.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/spring-context.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/spring-redis.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/classes/springmvc-servlet.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/alipay-api-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/antlr-2.7.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/asm-4.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/aspectjrt-1.7.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/aspectjweaver-1.7.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/bcprov-jdk15-1.46.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/cdi-api-1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/cglib-3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/classmate-1.3.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/commons-beanutils-1.7.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/commons-codec-1.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/commons-collections-3.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/commons-collections4-4.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/commons-io-2.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/commons-lang-2.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/commons-lang3-3.3.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/commons-logging-1.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/commons-pool2-2.4.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/core-3.2.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/dom4j-1.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/druid-1.0.11.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/ehcache-core-2.6.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/ehcache-web-2.0.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/el-api-2.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/ezmorph-1.0.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/geronimo-jta_1.1_spec-1.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/hibernate-commons-annotations-5.0.1.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/hibernate-core-5.2.6.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/httpclient-4.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/httpcore-4.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/itextpdf-5.5.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/jackson-annotations-2.9.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/jackson-core-2.9.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/jackson-core-asl-1.9.13.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/jackson-databind-2.9.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/jackson-mapper-asl-1.9.13.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/jandex-2.0.3.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/javase-3.2.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/javassist-3.20.0-GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/javax.inject-1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/jboss-interceptors-api_1.1_spec-1.0.0.Beta1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/jboss-logging-3.3.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/jedis-2.9.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/jjwt-0.7.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/json-lib-2.1-jdk15.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/jsr250-api-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/jstl-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/log4j-1.2.17.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/mysql-connector-java-5.1.34.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/slf4j-api-1.7.25.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/slf4j-log4j12-1.7.25.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/spring-aop-4.3.11.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/spring-aspects-4.0.9.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/spring-beans-4.3.11.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/spring-context-4.3.11.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/spring-context-support-4.3.11.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/spring-core-4.3.11.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/spring-data-redis-1.6.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/spring-expression-4.3.11.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/spring-jdbc-4.3.11.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/spring-tx-4.3.11.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/spring-web-4.3.11.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/spring-webmvc-4.3.11.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/lib/xml-apis-1.0.b2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/commodity.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/css/default.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/css/login.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/css/login/css/reset.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/css/login/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/css/login/css/supersized.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/css/pace/dataurl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/css/query_startic_pro.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/demo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/demo2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/demo_file.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/details.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/franchisee.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/img/dl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/img/fh.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/img/new_goods.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/img/special_price.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/img/watermark.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/img/zc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/indent.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/js/FileSaver.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/js/bootstrap/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/js/bootstrap/html5shiv.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/js/bootstrap/respond.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/js/commodity.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/js/default.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/js/details.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/js/franchisee.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/js/indent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/js/jquery.extend.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/js/jquery.scrolltopcontrol/scrolltopcontrol.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/js/login.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/js/md5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/js/pace/pace.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/js/promotion.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/js/register.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/js/repair.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/js/staff.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/js/tv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/js/user.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/key.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/mobileHtml/promotion.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/mobileHtml/staffOrder.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/promotion.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/register.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/repair.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/staff.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/tv.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/upload/garousel/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/upload/garousel/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/upload/garousel/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/upload/garousel/g2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/upload/garousel/g5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/upload/garousel/g6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/upload/garousel/psb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/upload/goods/1/sweetpotato.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/upload/goods/10/lettuce.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/upload/goods/11/spinach.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/upload/goods/2/tomato.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/upload/goods/3/Broccoli.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/upload/goods/4/carrot.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/upload/goods/5/cabbage.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/upload/goods/6/potato.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/upload/goods/7/cucumber.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/upload/goods/8/corn.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/upload/goods/9/leeks.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/upload/goods/9/shallot.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/upload/headimg/headimg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/upload/tv/tvlive.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/user.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/mnt/功能模块描述.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/siyann/model/Admin.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/Admin.hbm.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/siyann/model/AfterSale.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/AfterSale.hbm.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/siyann/model/AppVersion.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/AppVersion.hbm.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/siyann/model/Franchisee.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/Franchisee.hbm.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/siyann/model/Garousel.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/Garousel.hbm.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/siyann/model/GarouselCatalog.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/GarouselCatalog.hbm.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/siyann/model/Goods.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/Goods.hbm.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/siyann/model/GoodsActivity.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/GoodsActivity.hbm.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/siyann/model/GoodsCatalog.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/GoodsCatalog.hbm.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/siyann/model/Orders.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/Orders.hbm.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/siyann/model/OrdersDetail.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/OrdersDetail.hbm.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/siyann/model/Refund.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/Refund.hbm.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/siyann/model/RepairComment.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/RepairComment.hbm.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/siyann/model/RepairOrder.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/RepairOrder.hbm.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/siyann/model/RepairOrderRead.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/RepairOrderRead.hbm.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/siyann/model/ScrollNews.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/ScrollNews.hbm.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/siyann/model/Staff.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/Staff.hbm.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/siyann/model/StaffPromotion.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/StaffPromotion.hbm.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/siyann/model/Tv.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/Tv.hbm.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/siyann/model/User.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/User.hbm.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/siyann/model/UserAddress.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserAddress.hbm.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/siyann/model/UserFeedback.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserFeedback.hbm.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/siyann/view/VAdmin.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/VAdmin.hbm.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/siyann/view/VGarousel.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/VGarousel.hbm.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/siyann/view/VGoods.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/VGoods.hbm.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/siyann/view/VGoodsActivity.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/VGoodsActivity.hbm.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/siyann/view/VGoodsCount.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/VGoodsCount.hbm.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/siyann/view/VOrders.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/VOrders.hbm.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/siyann/view/VOrdersDetails.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/VOrdersDetails.hbm.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/siyann/view/VRepairOrder.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/VRepairOrder.hbm.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/siyann/view/VStaffPromotion.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/VStaffPromotion.hbm.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/siyann/view/VTv.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/VTv.hbm.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/siyann/view/VUser.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/VUser.hbm.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/siyann/view/VUserAddress.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/VUserAddress.hbm.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/siyann/view/VUserFeedback.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/VUserFeedback.hbm.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/app/controller/AfterSaleController.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/app/controller/AfterSaleController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/app/controller/FranchiseeController.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/app/controller/FranchiseeController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/app/controller/GarouselController.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/app/controller/GarouselController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/app/controller/GoodsController.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/app/controller/GoodsController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/app/controller/OrdersController.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/app/controller/OrdersController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/app/controller/RepairController.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/app/controller/RepairController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/app/controller/ScrollNewsController.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/app/controller/ScrollNewsController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/app/controller/StaffController.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/app/controller/StaffController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/app/controller/TvController.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/app/controller/TvController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/app/controller/UserController.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/app/controller/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/bean/OrderModel.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/bean/OrderModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/bean/WXNotify.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/bean/WXNotify.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/bean/WXRETURN.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/bean/WXRETURN.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/controller/AdminController.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/controller/AdminController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/controller/AfterSaleController.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/controller/AfterSaleController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/controller/FranchiseeController.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/controller/FranchiseeController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/controller/GarouselController.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/controller/GarouselController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/controller/GoodsController.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/controller/GoodsController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/controller/OrdersController.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/controller/OrdersController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/controller/RepairController.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/controller/RepairController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/controller/StaffController.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/controller/StaffController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/controller/TvController.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/controller/TvController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/controller/UserController.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/controller/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/dao/AdminDao.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/dao/AdminDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/dao/AfterSaleDao.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/dao/AfterSaleDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/dao/FranchiseeDao.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/dao/FranchiseeDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/dao/GarouselCatalogDao.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/dao/GarouselCatalogDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/dao/GarouselDao.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/dao/GarouselDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/dao/GoodsActivityDao.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/dao/GoodsActivityDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/dao/GoodsCatalogDao.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/dao/GoodsCatalogDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/dao/GoodsDao.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/dao/GoodsDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/dao/OrdersDao.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/dao/OrdersDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/dao/RefundDao.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/dao/RefundDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/dao/RepairDao.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/dao/RepairDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/dao/ScrollNewsDao.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/dao/ScrollNewsDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/dao/StaffDao.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/dao/StaffDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/dao/TvDao.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/dao/TvDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/dao/UserAddressDao.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/dao/UserAddressDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/dao/UserDao.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/dao/UserDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/dao/UserFeedbackDao.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/dao/UserFeedbackDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/dao/VersionDao.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/dao/VersionDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/dao/imp/AdminDaoImp.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/dao/imp/AdminDaoImp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/dao/imp/AfterSaleDaoImp$1.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/dao/imp/AfterSaleDaoImp$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/dao/imp/AfterSaleDaoImp.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/dao/imp/AfterSaleDaoImp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/dao/imp/FranchiseeDaoImp.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/dao/imp/FranchiseeDaoImp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/dao/imp/GarouselCatalogDaoImp.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/dao/imp/GarouselCatalogDaoImp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/dao/imp/GarouselDaoImp.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/dao/imp/GarouselDaoImp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/dao/imp/GoodsCatalogDaoImp.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/dao/imp/GoodsCatalogDaoImp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/dao/imp/GoodsDaoImp.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/dao/imp/GoodsDaoImp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/dao/imp/OrdersDaoImp$1.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/dao/imp/OrdersDaoImp$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/dao/imp/OrdersDaoImp.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/dao/imp/OrdersDaoImp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/dao/imp/RefundDaoImp.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/dao/imp/RefundDaoImp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/dao/imp/RepairDaoImp.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/dao/imp/RepairDaoImp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/dao/imp/ScrollNewsDaoImp.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/dao/imp/ScrollNewsDaoImp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/dao/imp/StaffDaoImp.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/dao/imp/StaffDaoImp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/dao/imp/TvDaoImp.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/dao/imp/TvDaoImp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/dao/imp/UserAddressDaoImp.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/dao/imp/UserAddressDaoImp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/dao/imp/UserDaoImp.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/dao/imp/UserDaoImp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/dao/imp/UserFeedbackDaoImp.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/dao/imp/UserFeedbackDaoImp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/dao/imp/VersionDaoImp.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/dao/imp/VersionDaoImp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/interceptor/AppInterceptor.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/interceptor/AppInterceptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/interceptor/BackInterceptor.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/interceptor/BackInterceptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/interceptor/BaseInterceptor.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/interceptor/BaseInterceptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/model/Admin.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/model/Admin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/model/AfterSale.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/model/AfterSale.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/model/AppVersion.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/model/AppVersion.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/model/Franchisee.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/model/Franchisee.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/model/Garousel.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/model/Garousel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/model/GarouselCatalog.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/model/GarouselCatalog.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/model/Goods.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/model/Goods.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/model/GoodsActivity.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/model/GoodsActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/model/GoodsCatalog.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/model/GoodsCatalog.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/model/Orders.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/model/Orders.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/model/OrdersDetail.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/model/OrdersDetail.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/model/Refund.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/model/Refund.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/model/RepairComment.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/model/RepairComment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/model/RepairOrder.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/model/RepairOrder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/model/RepairOrderRead.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/model/RepairOrderRead.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/model/ScrollNews.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/model/ScrollNews.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/model/Staff.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/model/Staff.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/model/StaffPromotion.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/model/StaffPromotion.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/model/Tv.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/model/Tv.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/model/User.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/model/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/model/UserAddress.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/model/UserAddress.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/model/UserFeedback.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/model/UserFeedback.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/util/AESUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/util/AESUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/util/ALIPAY.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/util/ALIPAY.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/util/Base64Util.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/util/Base64Util.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/util/ChangeTime.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/util/ChangeTime.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/util/Constants.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/util/Constants.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/util/Coordinate.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/util/Coordinate.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/util/HibernateSessionFactory.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/util/HibernateSessionFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/util/JsonUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/util/JsonUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/util/MD5.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/util/MD5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/util/MD5Util.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/util/MD5Util.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/util/MatrixToImageWriter.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/util/MatrixToImageWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/util/PDFUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/util/PDFUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/util/RedisUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/util/RedisUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/util/ResultUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/util/ResultUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/util/SerializeUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/util/SerializeUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/util/TokenUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/util/TokenUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/util/Utils.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/util/Utils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/util/WXAPI.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/util/WXAPI.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/util/XmlUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/util/XmlUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/view/VAdmin.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/view/VAdmin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/view/VAdminId.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/view/VAdminId.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/view/VGarousel.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/view/VGarousel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/view/VGarouselId.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/view/VGarouselId.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/view/VGoods.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/view/VGoods.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/view/VGoodsActivity.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/view/VGoodsActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/view/VGoodsActivityId.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/view/VGoodsActivityId.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/view/VGoodsCount.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/view/VGoodsCount.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/view/VGoodsCountId.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/view/VGoodsCountId.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/view/VGoodsId.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/view/VGoodsId.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/view/VOrders.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/view/VOrders.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/view/VOrdersDetails.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/view/VOrdersDetails.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/view/VOrdersDetailsId.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/view/VOrdersDetailsId.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/view/VOrdersId.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/view/VOrdersId.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/view/VRepairOrder.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/view/VRepairOrder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/view/VRepairOrderId.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/view/VRepairOrderId.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/view/VStaffPromotion.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/view/VStaffPromotion.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/view/VStaffPromotionId.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/view/VStaffPromotionId.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/view/VTv.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/view/VTv.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/view/VTvId.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/view/VTvId.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/view/VUser.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/view/VUser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/view/VUserAddress.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/view/VUserAddress.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/view/VUserAddressId.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/view/VUserAddressId.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/view/VUserFeedback.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/view/VUserFeedback.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/view/VUserFeedbackId.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/view/VUserFeedbackId.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/siyann/view/VUserId.class" afterPath="$PROJECT_DIR$/target/classes/com/siyann/view/VUserId.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mnt.war" afterPath="$PROJECT_DIR$/target/mnt.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/EHome_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/EHome_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_11.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_11.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alipay_api_alipay_api_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alipay_api_alipay_api_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_zxing_core_3_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_zxing_core_3_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_zxing_javase_3_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_zxing_javase_3_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_itextpdf_5_5_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_itextpdf_5_5_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_7_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_7_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_7_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_7_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_jsr250_api_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_jsr250_api_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_el_el_api_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_el_el_api_2_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_enterprise_cdi_api_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_enterprise_cdi_api_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_34.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_34.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ehcache_ehcache_core_2_6_9.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ehcache_ehcache_core_2_6_9.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ehcache_ehcache_web_2_0_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ehcache_ehcache_web_2_0_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_json_lib_json_lib_jdk15_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_json_lib_json_lib_jdk15_2_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jta_1_1_spec_1_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jta_1_1_spec_1_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_3_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_3_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_7_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_7_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_7_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_7_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15_1_46.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15_1_46.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_2_6_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_2_6_Final.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_3_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_3_Final.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_interceptor_jboss_interceptors_api_1_1_spec_1_0_0_Beta1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_interceptor_jboss_interceptors_api_1_1_spec_1_0_0_Beta1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_4_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_4_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_6_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_6_2_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_11_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_11_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_0_9_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_0_9_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_11_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_11_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_11_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_11_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_11_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_11_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_11_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_11_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_11_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_11_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_11_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_11_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_11_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_11_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_11_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_11_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_11_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_11_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_11_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_11_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EHome.iml" afterPath="$PROJECT_DIR$/EHome.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/siyann/app/controller/OrdersController.java" afterPath="$PROJECT_DIR$/src/main/java/com/siyann/app/controller/OrdersController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/siyann/util/HibernateSessionFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com/siyann/util/HibernateSessionFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring-context.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring-context.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring-redis.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring-redis.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/spring-context.xml" afterPath="$PROJECT_DIR$/target/classes/spring-context.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/spring-redis.xml" afterPath="$PROJECT_DIR$/target/classes/spring-redis.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,22 +581,42 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="spring-context.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-context.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="330" column="20" lean-forward="true" selection-start-line="330" selection-start-column="20" selection-end-line="330" selection-end-column="20" />
+            <state relative-caret-position="1173">
+              <caret line="51" column="63" lean-forward="false" selection-start-line="51" selection-start-column="63" selection-end-line="51" selection-end-column="63" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdminController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/controller/AdminController.java">
+      <file leaf-file-name="AdminDaoImp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/dao/imp/AdminDaoImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="35" column="30" lean-forward="true" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+            <state relative-caret-position="621">
+              <caret line="37" column="44" lean-forward="false" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hibernate.cfg.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="161" column="48" lean-forward="true" selection-start-line="161" selection-start-column="48" selection-end-line="161" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrdersController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/app/controller/OrdersController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4669">
+              <caret line="220" column="22" lean-forward="false" selection-start-line="220" selection-start-column="22" selection-end-line="220" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,19 +624,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdminDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/dao/AdminDao.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="28" column="23" lean-forward="false" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="3703">
+              <caret line="161" column="21" lean-forward="false" selection-start-line="161" selection-start-column="21" selection-end-line="161" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-redis.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-redis.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jdbc.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -87,6 +684,12 @@
       <find>org.interceptor</find>
       <find>org/model/</find>
       <find>org/view/</find>
+      <find>servlet</find>
+      <find>spring</find>
+      <find>driverClassName</find>
+      <find>user</find>
+      <find>mysql</find>
+      <find>controller.User</find>
     </findStrings>
     <replaceStrings>
       <replace>Ehome</replace>
@@ -109,6 +712,9 @@
       <dir>E:\IdeaProjects\EHome\src\main\resources</dir>
     </dirStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -127,7 +733,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/siyann/app/controller/GoodsController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/siyann/app/controller/AfterSaleController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/siyann/app/controller/TvController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/siyann/app/controller/OrdersController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/siyann/dao/imp/RepairDaoImp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/siyann/app/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/siyann/app/controller/GarouselController.java" />
@@ -139,9 +744,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/siyann/controller/AdminController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/target/classes/spring-redis.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/springmvc-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-redis.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-context.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siyann/app/controller/OrdersController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/siyann/dao/imp/AdminDaoImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siyann/util/HibernateSessionFactory.java" />
+        <option value="$PROJECT_DIR$/target/classes/spring-context.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
       </list>
     </option>
   </component>
@@ -151,12 +763,20 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/apache-maven-3.3.9" />
+        <option name="localRepository" value="$PROJECT_DIR$/../../../m2repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../apache-maven-3.5.0" />
         <option name="pluginUpdatePolicy" value="DO_NOT_UPDATE" />
-        <option name="userSettingsFile" value="D:\apache-maven-3.3.9\repository\settings.xml" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../../apache-maven-3.5.0/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -171,11 +791,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="797" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -192,9 +811,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -206,86 +824,26 @@
             <path>
               <item name="EHome" type="b2602c69:ProjectViewProjectNode" />
               <item name="EHome" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EHome" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EHome" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EHome" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EHome" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EHome" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EHome" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="siyann" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EHome" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EHome" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="siyann" type="462c0819:PsiDirectoryNode" />
-              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EHome" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EHome" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EHome" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EHome" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EHome" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EHome" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EHome" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EHome" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EHome" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EHome" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
     <property name="nodejs_interpreter_path" value="D:/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../TendaEHome" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="JPA.DatabaseSchemaImportDialog" value="5ad47352-7800-444a-8f43-457a642882c2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -294,6 +852,13 @@
       <recent name="E:\IdeaProjects\EHome\src\main\resources" />
       <recent name="E:\IdeaProjects\EHome\src\main\java\com\siyann\view" />
       <recent name="E:\IdeaProjects\EHome\src\main\java\com\siyann\util" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="com.siyann.pojo" />
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/mapper" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -309,7 +874,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.EHomeServer">
-    <configuration name="EHomeServer" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.77" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="EHomeServer" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.0.M26" ALTERNATIVE_JRE_ENABLED="false">
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -379,7 +944,6 @@
       </ConfigurationWrapper>
       <method>
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="EHome:war exploded" />
           <artifact name="EHome:war" />
         </option>
       </method>
@@ -490,6 +1054,33 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
       <option name="LOCAL" value="false" />
       <deployment />
@@ -518,33 +1109,6 @@
         <option name="LOCAL" value="false" />
       </RunnerSettings>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -557,47 +1121,55 @@
       <option name="presentableId" value="Default" />
       <updated>1513151037686</updated>
       <workItem from="1513151040030" duration="8014000" />
+      <workItem from="1513223340877" duration="4064000" />
+      <workItem from="1513316973615" duration="426000" />
+      <workItem from="1515553349989" duration="5586000" />
+      <workItem from="1516347167218" duration="30000" />
+      <workItem from="1516418075652" duration="5840000" />
+      <workItem from="1517464776352" duration="3980000" />
+      <workItem from="1517800893827" duration="166000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8014000" />
+    <option name="totallyTimeSpent" value="28106000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897604" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959402" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959402" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904148" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3104435" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39978212" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39974618" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897604" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.73638344" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897604" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897604" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14213198" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897604" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27110156" sideWeight="0.52813065" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2746781" sideWeight="0.47186932" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868022" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -606,286 +1178,42 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="搭建框架" />
+    <option name="LAST_COMMIT_MESSAGE" value="搭建框架" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/app/controller/ScrollNewsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/model/AppVersion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/dao/FranchiseeDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/bean/WXNotify.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/util/PDFUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="115" column="14" lean-forward="false" selection-start-line="115" selection-start-column="14" selection-end-line="115" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/view/VUserFeedbackId.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/util/WXAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="29" column="44" lean-forward="false" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/app/controller/GoodsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="155" column="17" lean-forward="false" selection-start-line="155" selection-start-column="17" selection-end-line="155" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/app/controller/AfterSaleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/app/controller/TvController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/app/controller/OrdersController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/app/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/app/controller/GarouselController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/app/controller/StaffController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/app/controller/RepairController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-500">
-          <caret line="219" column="13" lean-forward="false" selection-start-line="219" selection-start-column="13" selection-end-line="219" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/dao/imp/FranchiseeDaoImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="151" column="19" lean-forward="true" selection-start-line="151" selection-start-column="19" selection-end-line="151" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/dao/imp/UserFeedbackDaoImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="58" column="64" lean-forward="false" selection-start-line="58" selection-start-column="64" selection-end-line="58" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/util/ALIPAY.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="51" column="38" lean-forward="false" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/dao/imp/RepairDaoImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="221" column="20" lean-forward="false" selection-start-line="221" selection-start-column="20" selection-end-line="221" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/app/controller/FranchiseeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/util/AESUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-50">
-          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.11.RELEASE/spring-webmvc-4.3.11.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerMapping.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="58" column="42" lean-forward="true" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/interceptor/BackInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/key.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/ProxoolConf.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/redis.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring-context.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-redis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1000">
-          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        <state relative-caret-position="276">
+          <caret line="12" column="66" lean-forward="true" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
+        <state relative-caret-position="3128">
+          <caret line="136" column="36" lean-forward="true" selection-start-line="136" selection-start-column="36" selection-end-line="136" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7590">
           <caret line="330" column="20" lean-forward="true" selection-start-line="330" selection-start-column="20" selection-end-line="330" selection-end-column="20" />
           <folding />
         </state>
@@ -893,31 +1221,339 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/dao/AdminDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
+        <state relative-caret-position="575">
           <caret line="28" column="23" lean-forward="false" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/dao/imp/AdminDaoImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/controller/AdminController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="529">
           <caret line="35" column="30" lean-forward="true" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/app/controller/ScrollNewsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/model/AppVersion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/dao/FranchiseeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/bean/WXNotify.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/util/PDFUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="115" column="14" lean-forward="false" selection-start-line="115" selection-start-column="14" selection-end-line="115" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/view/VUserFeedbackId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/util/WXAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="29" column="44" lean-forward="false" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/app/controller/GoodsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="155" column="17" lean-forward="false" selection-start-line="155" selection-start-column="17" selection-end-line="155" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/app/controller/AfterSaleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/app/controller/TvController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/app/controller/GarouselController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/app/controller/StaffController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/app/controller/RepairController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-500">
+          <caret line="219" column="13" lean-forward="false" selection-start-line="219" selection-start-column="13" selection-end-line="219" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/dao/imp/FranchiseeDaoImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="151" column="19" lean-forward="true" selection-start-line="151" selection-start-column="19" selection-end-line="151" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/dao/imp/UserFeedbackDaoImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="58" column="64" lean-forward="false" selection-start-line="58" selection-start-column="64" selection-end-line="58" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/util/ALIPAY.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="51" column="38" lean-forward="false" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/dao/imp/RepairDaoImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="221" column="20" lean-forward="false" selection-start-line="221" selection-start-column="20" selection-end-line="221" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/app/controller/FranchiseeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/util/AESUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-50">
+          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.11.RELEASE/spring-webmvc-4.3.11.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerMapping.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="58" column="42" lean-forward="true" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/interceptor/BackInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/key.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ProxoolConf.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/dao/AdminDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="28" column="23" lean-forward="false" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="897">
+          <caret line="39" column="16" lean-forward="true" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="62" column="65" lean-forward="false" selection-start-line="62" selection-start-column="65" selection-end-line="62" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../m2repository/org/springframework/spring-beans/4.3.11.RELEASE/spring-beans-4.3.11.RELEASE.jar!/org/springframework/beans/factory/config/PlaceholderConfigurerSupport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/OrdersDetail.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EHome.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/spring-redis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="13" column="44" lean-forward="false" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/redis.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/app/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-622">
+          <caret line="34" column="22" lean-forward="false" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-redis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/util/HibernateSessionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-59">
+          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5ad47352-7800-444a-8f43-457a642882c2/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/dao/imp/AdminDaoImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="37" column="44" lean-forward="false" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3703">
+          <caret line="161" column="21" lean-forward="false" selection-start-line="161" selection-start-column="21" selection-end-line="161" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/spring-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="19" column="99" lean-forward="false" selection-start-line="19" selection-start-column="74" selection-end-line="19" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/pojo/ActivityEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siyann/app/controller/OrdersController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4669">
+          <caret line="220" column="22" lean-forward="false" selection-start-line="220" selection-start-column="22" selection-end-line="220" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="51" column="63" lean-forward="false" selection-start-line="51" selection-start-column="63" selection-end-line="51" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="161" column="48" lean-forward="true" selection-start-line="161" selection-start-column="48" selection-end-line="161" selection-end-column="48" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -927,10 +1563,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>EHome:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -938,7 +1576,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Web (EHome)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -961,7 +1599,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.7</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -973,12 +1611,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>EHome</last-edited>
+          <last-edited>Hibernate|EHome</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -986,6 +1623,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
