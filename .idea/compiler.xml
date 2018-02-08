@@ -9,7 +9,7 @@
         <module name="EHome" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.8">
       <module name="EHome" target="1.8" />
     </bytecodeTargetLevel>
   </component>

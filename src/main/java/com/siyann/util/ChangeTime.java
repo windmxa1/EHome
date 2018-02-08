@@ -4,12 +4,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
-import java.util.Set;
-
-import com.sun.org.apache.bcel.internal.generic.NEW;
 
 public class ChangeTime {
 	/**
@@ -137,8 +132,8 @@ public class ChangeTime {
 	// 1417792627
 	public static String TimeStamp2Date(String timestampString, String formats) {
 		Long timestamp = Long.parseLong(timestampString) * 1000;
-		String date = new SimpleDateFormat(formats)
-				.format(new Date(timestamp));
+		String date = new java.text.SimpleDateFormat(formats)
+				.format(new java.util.Date(timestamp));
 		return date;
 	}
 }

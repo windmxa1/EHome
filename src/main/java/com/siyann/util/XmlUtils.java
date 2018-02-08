@@ -9,17 +9,13 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.siyann.dao.OrdersDao;
-import com.siyann.dao.imp.OrdersDaoImp;
 import org.dom4j.Attribute;
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
 import org.dom4j.DocumentHelper;
 import org.dom4j.Element;
-import org.dom4j.Node;
 import org.dom4j.io.OutputFormat;
 import org.dom4j.io.XMLWriter;
-import org.w3c.dom.NodeList;
 
 public class XmlUtils {
 //	public static void main(String[] args) {
@@ -310,20 +306,20 @@ public class XmlUtils {
 			} else if (key.equals("#text")) { // 有属性时的文本
 				body.setText(value.toString());
 			} else {
-				if (value instanceof List) {
+				if (value instanceof java.util.List) {
 					List list = (List) value;
 					Object obj;
 					for (int i = 0; i < list.size(); i++) {
 						obj = list.get(i);
 						// list里是map或String，不会存在list里直接是list的，
-						if (obj instanceof Map) {
+						if (obj instanceof java.util.Map) {
 							Element subElement = body.addElement(key);
 							map2xml((Map) list.get(i), subElement);
 						} else {
 							body.addElement(key).setText((String) list.get(i));
 						}
 					}
-				} else if (value instanceof Map) {
+				} else if (value instanceof java.util.Map) {
 					Element subElement = body.addElement(key);
 					map2xml((Map) value, subElement);
 				} else {

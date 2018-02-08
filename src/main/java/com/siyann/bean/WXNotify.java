@@ -1,4 +1,4 @@
-package com.siyann.bean;
+package org.bean;
 
 import javax.xml.bind.annotation.XmlRootElement;
 /**

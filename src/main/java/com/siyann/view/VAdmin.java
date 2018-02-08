@@ -1,34 +1,92 @@
 package com.siyann.view;
 
-/**
- * VAdmin entity. @author MyEclipse Persistence Tools
- */
+import javax.persistence.Basic;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Table;
 
-public class VAdmin implements java.io.Serializable {
+@Entity
+@Table(name = "v_admin", schema = "tendaehome", catalog = "")
+public class VAdmin {
+    private long id;
+    private String username;
+    private String password;
+    private long time;
+    private String createTime;
 
-	// Fields
+    @Basic
+    @Column(name = "id")
+    public long getId() {
+        return id;
+    }
 
-	private VAdminId id;
+    public void setId(long id) {
+        this.id = id;
+    }
 
-	// Constructors
+    @Basic
+    @Column(name = "username")
+    public String getUsername() {
+        return username;
+    }
 
-	/** default constructor */
-	public VAdmin() {
-	}
+    public void setUsername(String username) {
+        this.username = username;
+    }
 
-	/** full constructor */
-	public VAdmin(VAdminId id) {
-		this.id = id;
-	}
+    @Basic
+    @Column(name = "password")
+    public String getPassword() {
+        return password;
+    }
 
-	// Property accessors
+    public void setPassword(String password) {
+        this.password = password;
+    }
 
-	public VAdminId getId() {
-		return this.id;
-	}
+    @Basic
+    @Column(name = "time")
+    public long getTime() {
+        return time;
+    }
 
-	public void setId(VAdminId id) {
-		this.id = id;
-	}
+    public void setTime(long time) {
+        this.time = time;
+    }
 
+    @Basic
+    @Column(name = "create_time")
+    public String getCreateTime() {
+        return createTime;
+    }
+
+    public void setCreateTime(String createTime) {
+        this.createTime = createTime;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        VAdmin vAdmin = (VAdmin) o;
+
+        if (id != vAdmin.id) return false;
+        if (time != vAdmin.time) return false;
+        if (username != null ? !username.equals(vAdmin.username) : vAdmin.username != null) return false;
+        if (password != null ? !password.equals(vAdmin.password) : vAdmin.password != null) return false;
+        if (createTime != null ? !createTime.equals(vAdmin.createTime) : vAdmin.createTime != null) return false;
+
+        return true;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = (int) (id ^ (id >>> 32));
+        result = 31 * result + (username != null ? username.hashCode() : 0);
+        result = 31 * result + (password != null ? password.hashCode() : 0);
+        result = 31 * result + (int) (time ^ (time >>> 32));
+        result = 31 * result + (createTime != null ? createTime.hashCode() : 0);
+        return result;
+    }
 }
