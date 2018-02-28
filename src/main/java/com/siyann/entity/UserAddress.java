@@ -4,6 +4,9 @@ import javax.persistence.*;
 
 @Entity
 @Table(name = "user_address", schema = "tendaehome", catalog = "")
+//@NamedStoredProcedureQueries({
+//        @NamedStoredProcedureQuery(name = "update_default_address", procedureName = "update_default_address", parameters = {@StoredProcedureParameter(name = "userid", type = Long.class), @StoredProcedureParameter(name = "id", type = Long.class)})
+//})
 public class UserAddress {
     private long id;
     private long userid;
@@ -12,6 +15,32 @@ public class UserAddress {
     private Integer default_;
     private String tel;
     private String sex;
+
+    public UserAddress() {
+    }
+
+    public UserAddress(long userid, String address, String receiver, String tel, String sex) {
+        this.userid = userid;
+        this.address = address;
+        this.receiver = receiver;
+        this.tel = tel;
+        this.sex = sex;
+    }
+
+    public UserAddress(long id, long userid) {
+        this.id = id;
+        this.userid = userid;
+    }
+
+    public UserAddress(long userid, String address, String receiver, Integer default_, String tel, String sex) {
+        this.userid = userid;
+        this.address = address;
+        this.receiver = receiver;
+        this.default_ = default_;
+        this.tel = tel;
+        this.sex = sex;
+    }
+
 
     @Id
     @Column(name = "id")

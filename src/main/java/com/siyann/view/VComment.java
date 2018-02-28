@@ -1,9 +1,6 @@
 package com.siyann.view;
 
-import javax.persistence.Basic;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.sql.Timestamp;
 
 @Entity
@@ -24,6 +21,7 @@ public class VComment {
     private String imgUrl;
 
     @Basic
+    @Id
     @Column(name = "id")
     public long getId() {
         return id;

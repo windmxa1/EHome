@@ -11,6 +11,21 @@ public class GoodsCatalog {
     private String description;
     private Integer type;
 
+    public GoodsCatalog(String catalog, String url, String description, Integer type) {
+        this.catalog = catalog;
+        this.url = url;
+        this.description = description;
+        this.type = type;
+    }
+
+    public GoodsCatalog(long id, String catalog, String url, String description, Integer type) {
+        this.id = id;
+        this.catalog = catalog;
+        this.url = url;
+        this.description = description;
+        this.type = type;
+    }
+
     @Id
     @Column(name = "id")
     public long getId() {

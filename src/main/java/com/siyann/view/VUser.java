@@ -1,9 +1,6 @@
 package com.siyann.view;
 
-import javax.persistence.Basic;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "v_user", schema = "tendaehome", catalog = "")
@@ -20,7 +17,9 @@ public class VUser {
     private Integer addressId;
     private Integer isFree;
 
+
     @Basic
+    @Id
     @Column(name = "id")
     public long getId() {
         return id;

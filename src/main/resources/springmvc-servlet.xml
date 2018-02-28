@@ -13,7 +13,7 @@
           ">
 
 	<!--<context:component-scan base-package="com.siyann.controller"></context:component-scan>-->
-	<context:component-scan base-package="com.siyann.app.controller"></context:component-scan>
+	<context:component-scan base-package="com.siyann.app.controller"/>
 
 	<mvc:annotation-driven />
 
@@ -29,11 +29,11 @@
 	<mvc:resources mapping="/fonts/**" location="/fonts/**" />
 	<mvc:resources mapping="/img/**" location="/img/" />
 
-	<!--<mvc:interceptors>-->
-		<!--<mvc:interceptor>-->
-			<!--<mvc:mapping path="/**" />-->
-			<!--<bean class="com.siyann.interceptor.BaseInterceptor"></bean>-->
-		<!--</mvc:interceptor>-->
+	<mvc:interceptors>
+		<mvc:interceptor>
+			<mvc:mapping path="/**" />
+			<bean class="com.siyann.interceptor.BaseInterceptor"></bean>
+		</mvc:interceptor>
 		<!--<mvc:interceptor>-->
 			<!--<mvc:mapping path="/app/**" />-->
 			<!--<mvc:exclude-mapping path="/app/user/login" />-->
@@ -62,7 +62,7 @@
 			<!--<mvc:exclude-mapping path="/back/repair/repairNotice" />-->
 			<!--<bean class="com.siyann.interceptor.BackInterceptor"></bean>-->
 		<!--</mvc:interceptor>-->
-	<!--</mvc:interceptors>-->
+	</mvc:interceptors>
 	<bean
 		class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter">
 		<property name="messageConverters">

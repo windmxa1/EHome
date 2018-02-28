@@ -6,9 +6,9 @@ import java.util.Map;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.siyann.util.Utils;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
-import com.siyann.util.ResultUtils;
 import com.siyann.util.TokenUtils;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -30,12 +30,12 @@ public class AppInterceptor implements HandlerInterceptor {
 
 	public boolean preHandle(HttpServletRequest request,
 			HttpServletResponse response, Object object) throws Exception {
-		Key key = TokenUtils.getKey();
+		Key key = TokenUtils.getKey(0);
 		String token = request.getHeader("token");
 		if (TokenUtils.isValid(token, key)) {
 			return true;
 		} else {
-			Map<String, Object> result = ResultUtils.toJson(400,
+			Map<String, Object> result = Utils.toJson(400,
 					"您的账户信息已过期或已在其他客户端登录，请重新登录", "");
 			ObjectMapper objectMapper = new ObjectMapper();
 			String s = objectMapper.writeValueAsString(result);

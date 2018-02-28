@@ -1,9 +1,6 @@
 package com.siyann.view;
 
-import javax.persistence.Basic;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "v_user_feedback", schema = "tendaehome", catalog = "")
@@ -12,11 +9,12 @@ public class VUserFeedback {
     private String message;
     private long userId;
     private long time;
-    private Byte read;
+    private Integer read;
     private String createTime;
     private String phone;
 
     @Basic
+    @Id
     @Column(name = "id")
     public int getId() {
         return id;
@@ -58,11 +56,11 @@ public class VUserFeedback {
 
     @Basic
     @Column(name = "read")
-    public Byte getRead() {
+    public Integer getRead() {
         return read;
     }
 
-    public void setRead(Byte read) {
+    public void setRead(Integer read) {
         this.read = read;
     }
 

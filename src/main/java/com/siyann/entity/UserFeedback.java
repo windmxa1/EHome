@@ -9,7 +9,13 @@ public class UserFeedback {
     private String message;
     private long userId;
     private long time;
-    private Byte read;
+    private Integer read;
+
+    public UserFeedback(String message, Long userid, Long time) {
+        this.message=message;
+        this.userId = userid;
+        this.time=time;
+    }
 
     @Id
     @Column(name = "id")
@@ -53,11 +59,11 @@ public class UserFeedback {
 
     @Basic
     @Column(name = "read")
-    public Byte getRead() {
+    public Integer getRead() {
         return read;
     }
 
-    public void setRead(Byte read) {
+    public void setRead(Integer read) {
         this.read = read;
     }
 

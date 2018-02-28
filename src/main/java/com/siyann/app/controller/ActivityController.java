@@ -1,8 +1,8 @@
 package com.siyann.app.controller;
 
-import com.siyann.dao.ActivityDao;
 import com.siyann.entity.Activity;
-import com.siyann.util.ResultUtils;
+import com.siyann.service.ActivityService;
+import com.siyann.util.Utils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -15,11 +15,11 @@ import java.util.Map;
 public class ActivityController {
     Map<String, Object> data;
     @Autowired
-    ActivityDao aDao;
+    ActivityService aService;
 
     @RequestMapping("getActivityById")
-    public Object getActivityById(Long goodsId) {
-        List<Activity> list = aDao.getListByGoodsId(goodsId);
-        return ResultUtils.toJson(100, "", list);
+    public Object getActivityById(Long goodsId) throws Exception{
+        return aService.getListByGoodsId(goodsId);
     }
+
 }

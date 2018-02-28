@@ -1,9 +1,6 @@
 package com.siyann.view;
 
-import javax.persistence.Basic;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.math.BigDecimal;
 import java.sql.Timestamp;
 
@@ -26,7 +23,9 @@ public class VActivity {
     private String gift;
     private String typeName;
 
+
     @Basic
+    @Id
     @Column(name = "id")
     public int getId() {
         return id;

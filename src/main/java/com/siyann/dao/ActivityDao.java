@@ -10,6 +10,6 @@ import java.util.List;
 
 @Repository
 public interface ActivityDao extends JpaRepository<Activity,Integer> {
-    @Query(value="select a.* from activity a,activity_goods ag where a.id=ag.act_id and ag.goods_id=?1")
-    public List<Activity> getListByGoodsId(Long goodsId);
+    @Query(value="select a from Activity a,ActivityGoods ag where a.id=ag.actId and ag.goodsId=?1")
+    public List<Activity> getListByGoodsId(Long goodsId) throws Exception;
 }

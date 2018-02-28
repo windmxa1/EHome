@@ -16,6 +16,16 @@ public class User {
     private Integer partner;
     private Integer isFree;
 
+    public User() {
+
+    }
+
+    public User(String phone, String password, long time) {
+        this.phone = phone;
+        this.password = password;
+        this.time = time;
+    }
+
     @Id
     @Column(name = "id")
     public long getId() {

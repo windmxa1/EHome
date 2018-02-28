@@ -16,7 +16,7 @@ public class Goods {
     private String description;
     private long time;
     private String origin;
-    private Byte state;
+    private Integer state;
     private String unitName;
     private Integer unitNum;
     private Long saleNum;
@@ -105,11 +105,11 @@ public class Goods {
 
     @Basic
     @Column(name = "state")
-    public Byte getState() {
+    public Integer getState() {
         return state;
     }
 
-    public void setState(Byte state) {
+    public void setState(Integer state) {
         this.state = state;
     }
 
